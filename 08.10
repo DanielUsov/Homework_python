@@ -32,9 +32,9 @@ def strings(s):
     a= b / (b + h + j) * 100
     c = h / (b + h + j) * 100
     g = j / (b + h + j) * 100
-    print('заглавных букв больше: ', a, '%', sep = '')
-    print('строчных букв больше: ', c, '%', sep = '')
-    print('одинаково: ', g, '%', sep = '')
+    print('заглавных букв ', a, '%', sep = '')
+    print('строчных букв', c, '%', sep = '')
+    print('одинаково', g, '%', sep = '')
 
 rand_Strok = randStrok(10)
 str(rand_Strok)
