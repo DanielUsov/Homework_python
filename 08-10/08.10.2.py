@@ -15,7 +15,7 @@ def randList(numer1, numer2):
     return list
 
 def strings(s):
-    b = 0; h = 0; j = 0
+    b = 0; h = 0; j = 0; y = ""
     for i in range(len(s)):
         b = 0; l = 0
         for ii in range(len(s[i])):
@@ -32,9 +32,9 @@ def strings(s):
     a= b / (b + h + j) * 100
     c = h / (b + h + j) * 100
     g = j / (b + h + j) * 100
-    print('заглавных букв ', a, '%', sep = '')
-    print('строчных букв', c, '%', sep = '')
-    print('одинаково', g, '%', sep = '')
+    print('заглавных букв ', a, '%', y)
+    print('строчных букв', c, '%', y)
+    print('одинаково', g, '%', y )
 
 rand_Strok = randStrok(10)
 str(rand_Strok)
